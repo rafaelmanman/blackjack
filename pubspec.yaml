@@ -1,0 +1,5 @@
+name: blackjack
+version: 0.0.1
+description: Blackjack Game
+dev_dependencies:
+  test: ^1.14.2
