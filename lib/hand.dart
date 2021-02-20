@@ -19,4 +19,13 @@ class Hand{
     }
     return sum;
   }
+
+  @override
+  String toString() {
+    String to_return = "";
+    for(int i=0; i<cards.length; i++){
+      to_return = to_return + cards[i].toString() + " ";
+    }
+    return to_return;
+  }
 }
